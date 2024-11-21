@@ -1,0 +1,138 @@
+{
+    "segment_distribution": {
+        "Consumer": [
+            674,
+            0.5
+        ],
+        "Corporate": [
+            403,
+            0.3
+        ],
+        "Home Office": [
+            263,
+            0.2
+        ]
+    },
+    "segment_quantity": {
+        "Consumer": 3.75,
+        "Corporate": 3.8,
+        "Home Office": 3.79
+    },
+    "segment_unit_price": {
+        "Consumer": 14.17,
+        "Corporate": 15.6,
+        "Home Office": 18.03
+    },
+    "segment_profit": {
+        "Consumer": 6.05,
+        "Corporate": 6.77,
+        "Home Office": 8.05
+    },
+    "segment_discount": {
+        "Consumer": 0.07,
+        "Corporate": 0.08,
+        "Home Office": 0.07
+    },
+    "region_distribution": {
+        "West": [
+            443,
+            0.33
+        ],
+        "East": [
+            368,
+            0.27
+        ],
+        "Central": [
+            314,
+            0.23
+        ],
+        "South": [
+            215,
+            0.16
+        ]
+    },
+    "top_10_states": {
+        "California": [
+            283,
+            0.21
+        ],
+        "Texas": [
+            145,
+            0.11
+        ],
+        "New York": [
+            144,
+            0.11
+        ],
+        "Pennsylvania": [
+            65,
+            0.05
+        ],
+        "Illinois": [
+            58,
+            0.04
+        ],
+        "Washington": [
+            58,
+            0.04
+        ],
+        "Ohio": [
+            56,
+            0.04
+        ],
+        "Florida": [
+            50,
+            0.04
+        ],
+        "North Carolina": [
+            35,
+            0.03
+        ],
+        "Georgia": [
+            31,
+            0.02
+        ]
+    },
+    "top_10_cities": {
+        "New York City": [
+            118,
+            0.09
+        ],
+        "Los Angeles": [
+            113,
+            0.08
+        ],
+        "San Francisco": [
+            74,
+            0.06
+        ],
+        "Philadelphia": [
+            62,
+            0.05
+        ],
+        "Houston": [
+            57,
+            0.04
+        ],
+        "Seattle": [
+            51,
+            0.04
+        ],
+        "Chicago": [
+            42,
+            0.03
+        ],
+        "Columbus": [
+            32,
+            0.02
+        ],
+        "Springfield": [
+            24,
+            0.02
+        ],
+        "San Diego": [
+            24,
+            0.02
+        ]
+    }
+}
