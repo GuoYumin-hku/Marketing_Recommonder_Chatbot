@@ -69,8 +69,24 @@ def analysis_data(data, y1):
     region_distribution = {k: (v, round(v / len(data), 2)) for k, v in region_distribution.items()}
     print("The region distribution of item '{}' is: {}".format(y1, region_distribution))
 
+    # analyze the Ship Mode distribution and save in dictionary in both number and percentage
+    ship_mode_distribution = data['Ship Mode'].value_counts().to_dict()
+    ship_mode_distribution = {k: (v, round(v / len(data), 2)) for k, v in ship_mode_distribution.items()}
+    print("The Ship Mode distribution of item '{}' is: {}".format(y1, ship_mode_distribution))
 
-    data[data['Combined_Category'] == y1].head()
+    # analyze the Ship Speed distribution and save in dictionary in both number and percentage
+    # ship speed = ship date - order date
+    data['Ship Date'] = pd.to_datetime(data['Ship Date'])
+    data['Order Date'] = pd.to_datetime(data['Order Date'])
+    data['Ship Speed'] = data['Ship Date'] - data['Order Date']
+    data['Ship Speed'] = data['Ship Speed'].dt.days
+    ship_speed_distribution = data['Ship Speed'].value_counts().to_dict()
+    ship_speed_distribution = {k: (v, round(v / len(data), 2)) for k, v in ship_speed_distribution.items()}
+    # sort by keys
+    ship_speed_distribution = dict(sorted(ship_speed_distribution.items()))
+    print("The Ship Days distribution of item '{}' is: {}".format(y1, ship_speed_distribution))
+
+    # data[data['Combined_Category'] == y1].head()
 
     # analyze the state distribution and save in dictionary in both number and percentage
     state_distribution = data['State'].value_counts().to_dict()
@@ -127,6 +143,8 @@ def analysis_data(data, y1):
             'segment_profit': segment_profit,
             'segment_discount': segment_discount,
             'region_distribution': region_distribution,
+            'ship_mode_distribution': ship_mode_distribution,
+            'ship_days_distribution': ship_speed_distribution,
             # 'state_distribution': state_distribution,
             # 'city_distribution': city_distribution,
             'top_10_states': top_10_states,
@@ -141,6 +159,8 @@ def analysis_data(data, y1):
             'segment_profit': segment_profit,
             'segment_discount': segment_discount,
             'region_distribution': region_distribution,
+            'ship_mode_distribution': ship_mode_distribution,
+            'ship_days_distribution': ship_speed_distribution,
             # 'state_distribution': state_distribution,
             # 'city_distribution': city_distribution,
             'top_10_states': top_10_states,
