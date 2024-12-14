@@ -11,7 +11,7 @@ from zhipuai import ZhipuAI
 label_num_to_text = {0: ('Furniture', 'Bookcases'), 1: ('Furniture', 'Chairs'), 2: ('Furniture', 'Furnishings'), 3: ('Furniture', 'Tables'), 4: ('Office Supplies', 'Appliances'), 5: ('Office Supplies', 'Art'), 6: ('Office Supplies', 'Binders'), 7: ('Office Supplies', 'Envelopes'), 8: ('Office Supplies', 'Fasteners'), 9: ('Office Supplies', 'Labels'), 10: ('Office Supplies', 'Paper'), 11: ('Office Supplies', 'Storage'), 12: ('Office Supplies', 'Supplies'), 13: ('Technology', 'Accessories'), 14: ('Technology', 'Copiers'), 15: ('Technology', 'Machines'), 16: ('Technology', 'Phones')}
 
 # Load the BERT model and tokenizer
-model_path = '../Classification/results/checkpoint-4674'
+model_path = '../Classification/results/checkpoint-1299'
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 model = BertForSequenceClassification.from_pretrained(model_path)
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
@@ -45,10 +45,10 @@ def generate_suggestions(messages, commodity_name, category):
         "highest_discount_analysis": analysis_result["segment_discount"],
         "most_region_customers": analysis_result["region_distribution"],
         "most_shipping_mode_counts": analysis_result["ship_mode_distribution"],
-        "most_common_shipping_time_cost_counts": analysis_result["ship_days_distribution"],
+        "most_common_shipping_time_cost_counts": analysis_result["ship_speed_distribution"],
         "most_country_customers": analysis_result["country_distribution"],
         "most_discount_customers": analysis_result["discount_distribution"],
-        "most_segment_discount_customers": analysis_result["segment_discount_distribution_percentage"],
+        "most_segment_discount_customers": analysis_result["segment_discount"],
         "most_quantity_discount": analysis_result["discount_quantity"],
         "highest_discount_sales_analysis": analysis_result["discount_sales"],
         "highest_discount_profit_analysis": analysis_result["discount_profit"],
