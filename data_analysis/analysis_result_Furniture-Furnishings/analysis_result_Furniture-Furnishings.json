@@ -1,375 +1,564 @@
 {
     "segment_distribution": {
         "Consumer": [
-            491,
-            0.52
+            1266,
+            0.53
         ],
         "Corporate": [
-            286,
-            0.3
+            701,
+            0.29
         ],
         "Home Office": [
-            175,
-            0.18
-        ]
-    },
-    "segment_quantity": {
-        "Consumer": 3.71,
-        "Corporate": 3.77,
-        "Home Office": 3.67
-    },
-    "segment_unit_price": {
-        "Consumer": 27.05,
-        "Corporate": 23.14,
-        "Home Office": 26.57
-    },
-    "segment_profit": {
-        "Consumer": 4.29,
-        "Corporate": 3.25,
-        "Home Office": 2.54
-    },
-    "segment_discount": {
-        "Consumer": 0.14,
-        "Corporate": 0.14,
-        "Home Office": 0.14
-    },
-    "region_distribution": {
-        "West": [
-            302,
-            0.32
-        ],
-        "East": [
-            281,
-            0.3
-        ],
-        "Central": [
-            204,
-            0.21
-        ],
-        "South": [
-            165,
+            416,
             0.17
         ]
     },
+    "segment_quantity": {
+        "Consumer": 3.73,
+        "Corporate": 3.79,
+        "Home Office": 3.76
+    },
+    "segment_unit_price": {
+        "Consumer": 32.72,
+        "Corporate": 31.69,
+        "Home Office": 32.74
+    },
+    "segment_profit": {
+        "Consumer": 5.48,
+        "Corporate": 4.86,
+        "Home Office": 5.32
+    },
+    "segment_discount": {
+        "Consumer": 0.12,
+        "Corporate": 0.12,
+        "Home Office": 0.12
+    },
+    "region_distribution": {
+        "Central": [
+            625,
+            0.26
+        ],
+        "East": [
+            567,
+            0.24
+        ],
+        "South": [
+            475,
+            0.2
+        ],
+        "West": [
+            393,
+            0.16
+        ],
+        "North": [
+            323,
+            0.14
+        ]
+    },
     "region_quantity": {
-        "Central": 3.68,
-        "East": 3.58,
-        "South": 3.73,
+        "Central": 3.69,
+        "East": 3.67,
+        "North": 3.7,
+        "South": 3.86,
         "West": 3.88
     },
     "region_sales": {
-        "Central": 74.71,
-        "East": 102.61,
-        "South": 104.89,
-        "West": 99.32
+        "Central": 140.33,
+        "East": 106.66,
+        "North": 106.21,
+        "South": 143.0,
+        "West": 100.57
     },
     "region_unit_price": {
-        "Central": 20.3,
-        "East": 28.63,
-        "South": 28.14,
-        "West": 25.59
+        "Central": 38.02,
+        "East": 29.05,
+        "North": 28.69,
+        "South": 37.02,
+        "West": 25.93
     },
     "region_discount": {
-        "Central": 0.4,
-        "East": 0.08,
-        "South": 0.11,
-        "West": 0.03
+        "Central": 0.17,
+        "East": 0.1,
+        "North": 0.19,
+        "South": 0.08,
+        "West": 0.05
     },
     "region_profit": {
-        "Central": -5.19,
-        "East": 5.76,
-        "South": 5.6,
-        "West": 6.49
+        "Central": 5.23,
+        "East": 4.94,
+        "North": 1.22,
+        "South": 7.67,
+        "West": 6.05
     },
     "region_profit_margin": {
-        "Central": -0.26,
-        "East": 0.2,
-        "South": 0.2,
-        "West": 0.25
+        "Central": 0.14,
+        "East": 0.17,
+        "North": 0.04,
+        "South": 0.21,
+        "West": 0.23
     },
     "country_distribution": {
+        "China": [
+            965,
+            0.4
+        ],
         "United States": [
-            952,
-            1.0
+            957,
+            0.4
+        ],
+        "France": [
+            109,
+            0.05
+        ],
+        "Germany": [
+            101,
+            0.04
+        ],
+        "United Kingdom": [
+            67,
+            0.03
+        ],
+        "Spain": [
+            50,
+            0.02
+        ],
+        "Italy": [
+            48,
+            0.02
+        ],
+        "Netherlands": [
+            29,
+            0.01
+        ],
+        "Austria": [
+            18,
+            0.01
+        ],
+        "Sweden": [
+            12,
+            0.01
+        ],
+        "Belgium": [
+            6,
+            0.0
+        ],
+        "Portugal": [
+            5,
+            0.0
+        ],
+        "Denmark": [
+            5,
+            0.0
+        ],
+        "Ireland": [
+            3,
+            0.0
+        ],
+        "Switzerland": [
+            3,
+            0.0
+        ],
+        "Finland": [
+            3,
+            0.0
+        ],
+        "Norway": [
+            2,
+            0.0
         ]
     },
     "country_quantity": {
+        "Austria": 2.83,
+        "Belgium": 3.17,
+        "China": 3.78,
+        "Denmark": 4.0,
+        "Finland": 3.67,
+        "France": 3.72,
+        "Germany": 3.51,
+        "Ireland": 3.67,
+        "Italy": 3.9,
+        "Netherlands": 4.0,
+        "Norway": 5.0,
+        "Portugal": 4.6,
+        "Spain": 4.24,
+        "Sweden": 4.58,
+        "Switzerland": 4.0,
+        "United Kingdom": 3.67,
         "United States": 3.72
     },
     "country_sales": {
-        "United States": 95.98
+        "Austria": 178.32,
+        "Belgium": 202.5,
+        "China": 112.85,
+        "Denmark": 73.67,
+        "Finland": 201.3,
+        "France": 227.6,
+        "Germany": 181.95,
+        "Ireland": 79.58,
+        "Italy": 255.31,
+        "Netherlands": 173.02,
+        "Norway": 266.64,
+        "Portugal": 117.2,
+        "Spain": 254.53,
+        "Sweden": 67.41,
+        "Switzerland": 229.64,
+        "United Kingdom": 117.91,
+        "United States": 95.83
     },
     "country_unit_price": {
-        "United States": 25.78
+        "Austria": 62.94,
+        "Belgium": 63.95,
+        "China": 29.86,
+        "Denmark": 18.42,
+        "Finland": 54.9,
+        "France": 61.1,
+        "Germany": 51.76,
+        "Ireland": 21.7,
+        "Italy": 65.53,
+        "Netherlands": 43.25,
+        "Norway": 53.33,
+        "Portugal": 25.48,
+        "Spain": 60.03,
+        "Sweden": 14.71,
+        "Switzerland": 57.41,
+        "United Kingdom": 32.11,
+        "United States": 25.74
     },
     "country_profit": {
-        "United States": 3.65
+        "Austria": 19.24,
+        "Belgium": 17.67,
+        "China": 5.22,
+        "Denmark": -20.2,
+        "Finland": 3.06,
+        "France": 15.4,
+        "Germany": 12.15,
+        "Ireland": -24.04,
+        "Italy": 16.26,
+        "Netherlands": 1.3,
+        "Norway": 1.77,
+        "Portugal": -14.88,
+        "Spain": 15.44,
+        "Sweden": -14.53,
+        "Switzerland": 7.34,
+        "United Kingdom": -6.77,
+        "United States": 3.67
     },
     "country_profit_margin": {
+        "Austria": 0.31,
+        "Belgium": 0.28,
+        "China": 0.17,
+        "Denmark": -1.1,
+        "Finland": 0.06,
+        "France": 0.25,
+        "Germany": 0.23,
+        "Ireland": -1.11,
+        "Italy": 0.25,
+        "Netherlands": 0.03,
+        "Norway": 0.03,
+        "Portugal": -0.58,
+        "Spain": 0.26,
+        "Sweden": -0.99,
+        "Switzerland": 0.13,
+        "United Kingdom": -0.21,
         "United States": 0.14
     },
     "discount_distribution": {
         "0": [
-            568,
-            0.6
+            1593,
+            0.67
         ],
         "20%-30%": [
-            247,
-            0.26
+            277,
+            0.12
+        ],
+        "40%-50%": [
+            277,
+            0.12
         ],
         ">=50%": [
-            137,
-            0.14
+            173,
+            0.07
+        ],
+        "30%-40%": [
+            51,
+            0.02
+        ],
+        "10%-20%": [
+            12,
+            0.01
         ]
     },
     "discount_quantity": {
-        "0": 3.8,
-        "20%-30%": 3.62,
-        ">=50%": 3.61
+        "0": 3.77,
+        "10%-20%": 3.92,
+        "20%-30%": 3.66,
+        "30%-40%": 3.59,
+        "40%-50%": 3.79,
+        ">=50%": 3.75
     },
     "discount_sales": {
-        "0": 107.72,
-        "20%-30%": 95.39,
-        ">=50%": 48.41
+        "0": 139.15,
+        "10%-20%": 147.89,
+        "20%-30%": 103.35,
+        "30%-40%": 132.37,
+        "40%-50%": 78.77,
+        ">=50%": 53.74
     },
     "discount_profit": {
-        "0": 29.47,
-        "20%-30%": 8.69,
-        ">=50%": -43.33
+        "0": 36.36,
+        "10%-20%": 33.29,
+        "20%-30%": 8.33,
+        "30%-40%": -16.36,
+        "40%-50%": -15.35,
+        ">=50%": -48.78
     },
     "discount_unit_price": {
-        "0": 28.38,
-        "20%-30%": 26.33,
-        ">=50%": 13.43
+        "0": 36.94,
+        "10%-20%": 37.76,
+        "20%-30%": 28.21,
+        "30%-40%": 36.89,
+        "40%-50%": 20.78,
+        ">=50%": 14.33
     },
     "discount_profit_margin": {
-        "0": 0.27,
-        "20%-30%": 0.09,
-        ">=50%": -0.89
+        "0": 0.26,
+        "10%-20%": 0.23,
+        "20%-30%": 0.08,
+        "30%-40%": -0.12,
+        "40%-50%": -0.19,
+        ">=50%": -0.91
     },
     "seasonal_quantity": {
-        "Spring": 475,
-        "Summer": 735,
-        "Autumn": 926,
-        "Winter": 1409
+        "Spring": 1439,
+        "Summer": 2132,
+        "Autumn": 2282,
+        "Winter": 3091
     },
     "seasonal_sales": {
-        "Spring": 11362.32,
-        "Summer": 20342.72,
-        "Autumn": 23447.56,
-        "Winter": 36224.9
+        "Spring": 50529.95,
+        "Summer": 69062.59,
+        "Autumn": 74074.86,
+        "Winter": 96270.31
     },
     "seasonal_profit": {
-        "Spring": 1513.65,
-        "Summer": 2715.31,
-        "Autumn": 3936.86,
-        "Winter": 4785.34
+        "Spring": 8257.34,
+        "Summer": 10487.07,
+        "Autumn": 12541.42,
+        "Winter": 15824.53
     },
     "sales_ratio_by_quarter": {
-        "Spring": 24.4,
-        "Summer": 27.59,
-        "Autumn": 25.69,
-        "Winter": 24.9
+        "Spring": 34.41,
+        "Summer": 32.78,
+        "Autumn": 32.43,
+        "Winter": 30.9
     },
     "seasonal_profit_ratio_by_sales": {
-        "Spring": 18.39,
-        "Summer": 24.58,
-        "Autumn": 41.82,
-        "Winter": 45.72
+        "Spring": 47.59,
+        "Summer": 54.85,
+        "Autumn": 83.65,
+        "Winter": 110.69
     },
     "year_seasonal_quantity": {
-        "2014Spring": 79,
-        "2014Summer": 112,
-        "2014Autumn": 192,
-        "2014Winter": 275,
-        "2015Spring": 97,
-        "2015Summer": 188,
-        "2015Autumn": 188,
-        "2015Winter": 296,
-        "2016Spring": 172,
-        "2016Summer": 210,
-        "2016Autumn": 251,
-        "2016Winter": 396,
-        "2017Spring": 127,
-        "2017Summer": 225,
-        "2017Autumn": 295,
-        "2017Winter": 442
+        "2018Spring": 110,
+        "2018Summer": 215,
+        "2018Autumn": 253,
+        "2018Winter": 346,
+        "2019Spring": 319,
+        "2019Summer": 384,
+        "2019Autumn": 473,
+        "2019Winter": 566,
+        "2020Spring": 298,
+        "2020Summer": 546,
+        "2020Autumn": 631,
+        "2020Winter": 763,
+        "2021Spring": 581,
+        "2021Summer": 762,
+        "2021Autumn": 630,
+        "2021Winter": 970,
+        "2022Spring": 131,
+        "2022Summer": 225,
+        "2022Autumn": 295,
+        "2022Winter": 446
     },
     "year_seasonal_sales": {
-        "2014Spring": 1584.88,
-        "2014Summer": 2196.96,
-        "2014Autumn": 4861.34,
-        "2014Winter": 5147.72,
-        "2015Spring": 2869.05,
-        "2015Summer": 7022.31,
-        "2015Autumn": 4457.99,
-        "2015Winter": 6697.24,
-        "2016Spring": 4198.19,
-        "2016Summer": 5256.67,
-        "2016Autumn": 6338.94,
-        "2016Winter": 12067.78,
-        "2017Spring": 2710.2,
-        "2017Summer": 5866.78,
-        "2017Autumn": 7789.29,
-        "2017Winter": 12312.16
+        "2018Spring": 5341.03,
+        "2018Summer": 6447.16,
+        "2018Autumn": 9660.44,
+        "2018Winter": 9154.82,
+        "2019Spring": 12504.54,
+        "2019Summer": 11329.89,
+        "2019Autumn": 15680.61,
+        "2019Winter": 16565.45,
+        "2020Spring": 10282.3,
+        "2020Summer": 21086.62,
+        "2020Autumn": 18271.41,
+        "2020Winter": 25125.44,
+        "2021Spring": 19642.99,
+        "2021Summer": 24332.14,
+        "2021Autumn": 22673.11,
+        "2021Winter": 32924.68,
+        "2022Spring": 2759.1,
+        "2022Summer": 5866.78,
+        "2022Autumn": 7789.29,
+        "2022Winter": 12499.92
     },
     "top_10_states": {
         "California": [
-            189,
-            0.2
+            191,
+            0.08
         ],
         "New York": [
-            99,
-            0.1
+            100,
+            0.04
+        ],
+        "GuangDong": [
+            94,
+            0.04
+        ],
+        "HeiLongJiang": [
+            88,
+            0.04
+        ],
+        "LiaoNing": [
+            88,
+            0.04
         ],
         "Texas": [
-            80,
-            0.08
+            81,
+            0.03
+        ],
+        "HeNan": [
+            72,
+            0.03
         ],
         "Pennsylvania": [
             64,
-            0.07
-        ],
-        "Illinois": [
-            57,
-            0.06
-        ],
-        "Washington": [
-            49,
-            0.05
-        ],
-        "Florida": [
-            47,
-            0.05
-        ],
-        "Ohio": [
-            45,
-            0.05
-        ],
-        "Virginia": [
-            26,
             0.03
         ],
-        "Colorado": [
-            24,
+        "HuBei": [
+            64,
+            0.03
+        ],
+        "England": [
+            60,
             0.03
         ]
     },
     "top_10_states_values": [
-        189,
-        99,
-        80,
+        191,
+        100,
+        94,
+        88,
+        88,
+        81,
+        72,
         64,
-        57,
-        49,
-        47,
-        45,
-        26,
-        24
+        64,
+        60
     ],
     "top_10_cities": {
         "New York City": [
-            77,
-            0.08
+            78,
+            0.03
         ],
         "Los Angeles": [
-            62,
-            0.07
+            63,
+            0.03
         ],
         "Philadelphia": [
             57,
-            0.06
+            0.02
         ],
         "San Francisco": [
             46,
-            0.05
+            0.02
         ],
         "Seattle": [
             39,
-            0.04
+            0.02
         ],
         "Chicago": [
             35,
-            0.04
+            0.01
         ],
         "Houston": [
             34,
-            0.04
+            0.01
         ],
-        "Columbus": [
-            27,
-            0.03
+        "ChongQing": [
+            34,
+            0.01
         ],
-        "San Diego": [
-            17,
-            0.02
+        "WuHan": [
+            30,
+            0.01
         ],
-        "Dallas": [
-            13,
+        "ShenYang": [
+            28,
             0.01
         ]
     },
     "top_10_cities_values": [
-        77,
-        62,
+        78,
+        63,
         57,
         46,
         39,
         35,
         34,
-        27,
-        17,
-        13
+        34,
+        30,
+        28
     ],
     "ship_mode_distribution": {
         "Standard Class": [
-            570,
-            0.6
+            1451,
+            0.61
         ],
         "Second Class": [
-            184,
-            0.19
+            465,
+            0.2
         ],
         "First Class": [
-            146,
-            0.15
+            331,
+            0.14
         ],
         "Same Day": [
-            52,
-            0.05
+            136,
+            0.06
         ]
     },
     "ship_speed_distribution": {
         "4": [
-            271,
-            0.28
+            697,
+            0.29
         ],
         "5": [
-            214,
-            0.22
+            511,
+            0.21
         ],
         "2": [
-            129,
-            0.14
+            292,
+            0.12
         ],
         "6": [
-            114,
+            279,
             0.12
         ],
         "3": [
-            86,
-            0.09
+            255,
+            0.11
         ],
         "7": [
-            54,
+            149,
             0.06
         ],
         "0": [
-            51,
-            0.05
+            135,
+            0.06
         ],
         "1": [
-            33,
+            65,
             0.03
         ]
     }
